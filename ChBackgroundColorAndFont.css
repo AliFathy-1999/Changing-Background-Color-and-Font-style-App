@@ -1,0 +1,96 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Roboto;
+}
+.FPart{
+    color: #75E6DA;
+    background-color: #05445E;
+  display: flex;
+  justify-content: center;
+}
+#A{font-family: Arial, Helvetica, sans-serif;}
+#TNR{font-family: 'Times New Roman', Times, serif;}
+#CN{font-family: "Lucida Console", "Courier New", monospace; }
+#S{font-family: "Sofia", sans-serif;}
+#T{font-family: "Trirong";}
+#C{font-family: Copperplate, Papyrus, fantasy;}
+#icon{
+    width: 100px;
+}
+#SecPart{
+    margin-top: 20px;
+}
+.NavBar>img{
+    width: 120px;
+    height: 110px;
+}
+.DropdownlistDiv{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    text-align: center;
+}
+.DropdownlistDiv>select{
+    width:220px;
+    height: 30px;
+    text-align: center;
+    color: #75E6DA;
+    background-color: #05445E;
+    border-radius: 0.2em;
+    border: none;
+    margin: 20px;
+    font-size: large;
+}
+.DropdownlistDiv>h3{color:#05445E;}
+option{background-color: #05445E;}
+#selectImg1{background-color: #659EBD;color: #FBEEC1;}
+#selectImg2{background-color: #5CDB94;color: #05396B;}
+#selectImg3{background-color: #1A1A1D;color: #C3083F;}
+#selectImg4{background-color: #E3E2DF;color: #E70044;}
+#selectImg5{background-color: #4056A1;color: #EFE1BA;}
+#selectImg6{background-color: #106466;color: #FFCB9B;}
+#selectColor1{color: #FBEEC1;}
+#selectColor2{color: #05396B;}
+#selectColor3{color: #C3083F;}
+#selectColor4{color: #E70044;}
+#selectColor5{color: #FFCB9B;}
+
+.thirdPart{
+    margin-top: 200px;
+    text-align: center;
+}
+button{
+    color: #75E6DA;
+    background-color: #05445E;
+    border:none;
+    border-radius: 0.2em;
+    width:180px;
+    height: 30px;
+    box-shadow: none;
+
+}
+@media screen and (max-width: 580px) {
+    #Title {
+      font-size: 10px;
+    }
+    .NavBar>img{
+        width: 50px;
+        height: 50px;
+    }
+  }
+  .footer{
+     font-size: 15px; 
+  }
+.name2{
+    font-family: Cursive;
+    text-decoration: none;
+    text-align: center;
+    color:wheat;
+}
+.name2:hover{
+    color: red;
+    font-size: xx-large;
+}
